@@ -25,3 +25,6 @@ print('割り算の計算結果:{}'.format(input_number[0] / input_number[1]))
 #追加機能
 #最小公倍数
 print('最小公倍数:{}'.format(math.lcm(input_number[0],input_number[1])))
+
+#最大公約数
+print('最大公約数:{}'.format(math.gcd(input_number[0],input_number[1])))
