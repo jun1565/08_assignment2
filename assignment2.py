@@ -1,3 +1,6 @@
+import math
+
+
 n = 2   #入力させる数値の数
 input_number = []  #入力した数値を格納する配列
 
@@ -17,3 +20,8 @@ print('掛け算の計算結果:{}'.format(input_number[0] * input_number[1]))
 
 #商
 print('割り算の計算結果:{}'.format(input_number[0] / input_number[1]))
+
+
+#追加機能
+#最小公倍数
+print('最小公倍数:{}'.format(math.gcd(input_number[0],input_number[1])))
